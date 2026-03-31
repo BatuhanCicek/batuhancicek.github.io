@@ -1,0 +1,58 @@
+/* style.css - Batuhan'ın Portfolyo Sitesi */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 120px 0 100px;
+    text-align: center;
+}
+
+.section-title {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.section-title:after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    background: #667eea;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.project-card {
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    border: none;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+}
+
+.btn {
+    padding: 12px 28px;
+    border-radius: 50px;
+}
